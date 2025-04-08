@@ -27,6 +27,7 @@
     font-size: 15px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    text-transform: uppercase;
     padding: 32px;
     background-color: #503d2c;
     color: #fff;
@@ -67,4 +68,16 @@
     background-color: #503d2c;
     color: #fff;
     border-top: 4px solid #806b4b;
+}
+
+@media (min-width: 600px) {
+  figure {
+    flex: 1 1 calc(50% - 32px);
+  }
+}
+
+@media (min-width: 900px) {
+  figure {
+    flex: 1 1 calc(33.33% - 32px);
+  }
 }
